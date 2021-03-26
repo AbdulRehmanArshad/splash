@@ -14,7 +14,7 @@ export class CheckoutForm extends Component {
     country: "",
     state: "",
     zip: "",
-    nameOncard: "",
+    nameOnCard: "",
     creditCard: "",
     expiration: "",
     cvv: "",
@@ -265,7 +265,7 @@ export class CheckoutForm extends Component {
                       id="cc-name"
                       placeholder=""
                       onChange={(e) =>
-                        this.setState({ nameOncard: e.target.value })
+                        this.setState({ nameOnCard: e.target.value })
                       }
                       required
                     />
